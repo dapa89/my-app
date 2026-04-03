@@ -1,7 +1,7 @@
 type AgeType = {
-  age?: number;
+  age: number;
 };
 
-export function Age({ age = 18 }: AgeType) {
+export function Age({ age }: AgeType) {
   return <p>Your age is {age}</p>;
 }
